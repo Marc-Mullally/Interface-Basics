@@ -13,7 +13,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
 
+    @IBOutlet weak var chicken: UILabel!
+    
 
+    
+    
+    
+    @IBOutlet weak var textField: UITextField!
+    
+    
+    @IBAction func greetButton(_ sender: Any) {
+        chicken.text = textField.text
+    }
+    
+    
 }
 
